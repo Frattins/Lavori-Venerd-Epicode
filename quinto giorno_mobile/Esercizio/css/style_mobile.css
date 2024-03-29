@@ -1,0 +1,146 @@
+/* Your styles here */
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 0 auto;
+    line-height: 1.5;
+}
+/************HEADER************/
+header {
+    background-color: black ;
+    padding: 0;
+}
+
+header img {
+    padding: 20px;
+}
+header p {
+    margin: 30px;
+}
+header div {
+    background-image: url(../images/banner.jpg);
+    padding: 15px;
+    background-position: center center;
+}
+header a {
+    padding: 15px 20px;
+    background-color:#f04c2f;
+    font-family: Monserrat;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+h1, h3 {
+    color: #25a2c3 ;
+}
+
+/*********MAIN*********/
+main {padding-top: 15px;}
+
+#content {
+    padding: 5px;
+}
+
+#img{
+    border-radius: 50%;  
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+}
+
+section {
+    background-color: #e22d0e;
+    color: white;
+    padding: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+section p:first-of-type {
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+section p:last-of-type {
+    font-size: 0.7em;
+}
+
+article {
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding-inline: 50px;
+    
+}
+
+
+article img { 
+    width: 350px;
+    margin: 0 auto;
+}
+
+article div {
+    border: 1px solid #c3c3c3;
+    margin-bottom: 2em;
+}
+
+article h3{
+    margin-bottom: 0;
+}
+
+article div p {
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-inline: 10px;
+}
+/********* FOOTER *********/
+
+footer {
+    background-color:#25a2c3 ;
+    color: #c8e7f0;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+footer h2 {
+    color: white;
+    margin: 0 auto;
+}
+.icona {
+    color: #c8e7f0;
+}
+
+footer a {
+    color:#c8e7f0 ;
+    font-weight:normal;
+}
+.fas {
+    color: white;
+}
+
+footer div{
+    border-bottom: #dee1e3 solid 1px;
+    text-align: center;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+
+footer div p{
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+span {
+    color: #c8e7f0;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+footer div p:last-of-type {
+    margin-bottom: 7px;
+}
