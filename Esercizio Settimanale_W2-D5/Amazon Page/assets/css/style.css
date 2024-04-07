@@ -1,0 +1,139 @@
+/* Your styles here */
+
+
+/**** HEADER ****/
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+header {
+    background-color: #222f3e; 
+    padding-top: 5px; 
+}
+
+#logo {
+    padding: 5px; 
+    padding-left: 20px;
+}
+
+
+#link {
+    background-color:#364759;
+}
+
+ul {
+    margin: 0;
+    padding:10px;
+}
+
+li {
+    display: inline;
+    margin-left: 1%;
+}
+
+#link a {
+    text-decoration: none;
+    color: white;
+}
+
+/*************** FINE HEADER *******/
+
+/**************** MAIN *************/
+
+article {
+    background-color: #E9EDEE;
+    padding-top: 2%;
+}
+
+main {
+    margin-inline: 5%;
+
+}
+
+#giftcards {
+    background-color:#F56600;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+    padding: 1%;
+
+}
+
+
+#giftguides {
+    background-image: url(../images/bg-image.png);
+    text-align: center;
+    color: white;
+    padding: 5%;
+    font-weight: bold;
+}
+
+
+#perfectgift {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    margin-top: 1%;
+    width: 100%;
+    padding-top: 1%;
+}
+
+#perfectgift h3 {
+    margin-left: 1%;
+}
+.inline {
+    display: inline; 
+    margin: 5px;
+}
+
+.link {
+    color: #025A6E;
+    font-weight: bold
+}
+
+.foto {
+    width : 22%;
+    height :23vw;
+    margin: 1%;
+    border-radius: 1vw;
+    box-shadow: 0.5vw 4px 4px rgba(185, 185, 185, 0.534);
+    margin-top: 0;
+}
+
+.inline a {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+ 
+}
+
+.shop {
+    width: 100%;
+    margin-top: 1vw;
+}
+
+/*********** FINE MAIN ******/
+
+/*********** FOOTER *********/
+
+footer {
+    background-color:#364759 ;
+    text-align: center;
+    padding: 1px;
+    margin-top: 3vw;
+}
+footer a {
+    padding: 1px;
+    margin: 0;
+    color: white;
+}
+footer div {
+    background-color: #222F3F ;
+    padding: 5vw;
+}
+
+/************* FINE FOOTER ********/
