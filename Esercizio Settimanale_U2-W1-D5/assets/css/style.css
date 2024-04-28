@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5vw;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  transition: background-color 0.3s; 
+}
+  
+header.scrolled {
+ background-color: white; 
+}
+
+nav a {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.blkbtn {
+    background: rgba(25, 25, 25, 1);
+    color: rgba(255, 255, 255, 1);
+    line-height: 20px;
+    padding: 8px 16px;
+    border-radius: 99em;
+    border-width: 1px;
+    border-style: solid;
+    border: black;
+    transition: background-color 0.3s, color 0.3s; 
+}
+.blkbtn.scrolled-btn {
+  background-color: green; 
+  color: white; 
+}
+
+main {
+  width: 100%;
+  background-color: #ffc017;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+    border-bottom: 1px solid black;
+}
+.hero {
+    line-height: 9vw;
+    max-width: 1200px; 
+    width: 100%;
+    padding: 0 20px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 160px;
+    
+}
+h1 {
+    margin:0;
+    letter-spacing: -0.05em;
+    font-size: 106px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 400;
+}
+
+.paragrafo {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #242424;
+}
+
+.start {
+    font-size: 20px;
+    width: 213px;
+    padding: 1vw;
+    margin-top: 3vw;
+}
+
+.trend {
+  max-width: 1200px; 
+  width: 100%;
+  margin: 40px 0;
+  padding: 0 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  }
+  
+  .trend h3 {
+    display: flex;
+    align-self: flex-start;
+    gap: 10px; 
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .sezione {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+    width: 100%;
+  }
+  
+  .article {
+    flex-basis: calc(33.333% - 20px); 
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: flex-start; 
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .number {
+    font-weight: bold;
+    margin-bottom: 5px; 
+    margin-right: 10px;
+    font-size: 32px;
+    color: #F2F2F2;
+    font-weight: 500;
+  }
+  
+  .icona-autore {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right:5px
+   
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chi {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cosa {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #242424;
+    font-size: 20px;
+  }
+  
+  .quando {
+    font-size: 0.8em;
+    color: #777;
+  }
+  
+.chi, .quando, .cosa {
+    padding-bottom: 5px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.chi, .cosa, .genere {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: smaller;
+}
+
+.normal {
+  font-size: smaller;
+  margin-inline: 2px;
+}
+
+/*PARTE STICKY NEWS*/
+  .sticky-news {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    width: 100%;
+    max-width: 1200px; 
+    gap: 40px; 
+    padding: 40px 0; 
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .sticky {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 170px;
+  }
+  
+  .topics {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-block: 2em;
+    border-bottom: 1px solid #F2F2F2;
+  }
+  
+  .news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+  }
+
+  .news-container {
+    display: flex;
+    width: 100%; 
+    max-width: 1200px; 
+    margin-bottom: 40px;
+    padding-bottom: 20px; 
+  }
+
+  .newsarticle {
+    color: #777;
+  }
+
+  .whtbtn { 
+    padding: 10px;
+    border: 1px solid #F2F2F2;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #F2F2F2;
+    flex: 0 0 calc(33.333% - 20px);
+    margin-bottom: 10px;
+}
+  
+  .footer-links {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+    padding: 24px 0;
+  }
+  .footer-links a {
+    text-decoration: none;
+    margin-right: 26px;
+    color: #777;
+  }
+  
+  .author-icon {
+    width: 50px;
+    border-radius: 50%;
+
+  }
+  
+.testo {
+  flex: 3; 
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px; 
+}
+
+.photo-container {
+  flex: 2; 
+  display: flex;
+  justify-content: center;
+}
+
+  .news-photo {
+    width: 200px;
+  }
+
+  .genere {
+    border-radius: 30px;
+    margin-inline: 10px;
+    border-style: none;
+    font-size: 0.9em;
+    color: #777;
+    padding: 5px;
+
+  }
+
+  .quando-bkm {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+  
