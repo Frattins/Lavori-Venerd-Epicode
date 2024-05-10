@@ -1,0 +1,55 @@
+body {
+background-color: antiquewhite !important;
+}
+
+header {
+    background-color: #FFD502;
+}
+
+.bgfooter {
+    
+    background-color:#201D48;
+
+}
+
+.bg-section {
+    background-color:#201D48
+}
+.maxwith {
+    max-width: 200px;
+}
+
+.cart-indicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: block; 
+}
+.dropdown-menu {
+    min-width: 250px; 
+}
+
+.dropdown-menu li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.dropdown-menu li button {
+    margin-left: 10px; 
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    font-weight: bold; 
+    font-size: 1.1em; 
+}
